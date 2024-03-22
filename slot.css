@@ -1,0 +1,192 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+/* Header Styles (continued) */
+.header-content h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav li.active a {
+    color: #2196F3; /* Primary Button Color */
+}
+
+.profile-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Search Bar Styles */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+/* Hospital List Styles */
+.hospital-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.hospital-list li {
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hospital-list li h3 {
+    margin: 0;
+}
+
+/* Book Now Button Styles */
+.book-now-button {
+  background-color: #2196F3; /* Primary Button Color */
+  color: #FFFFFF; /* Text Color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px; /* Rounded Corners */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.book-now-button:hover {
+  background-color: #1976D2; /* Hover Button Color */
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px; /* Added padding for centering content */
+    background-color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Added align-items for vertical centering */
+}
+
+.header-content h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+
+    text-decoration: none;
+    color: #333;
+}
+
+nav li.active a {
+    color: #2196F3; /* Primary Button Color */
+}
+
+/* Other Styles remain the same... */
