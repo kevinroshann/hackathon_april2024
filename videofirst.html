@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Consultation</title>
+    <link rel="stylesheet" href="slot.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Website</h1>
+           
+                <ul class="navigation">
+                    <li class="active"><a href="videofirst.html">Consultation</a></li>
+                    <li><a href="medicine.html">Medicines</a></li>
+                    <li ><a href="slot.html">Slot Booking</a></li>
+                </ul>
+            
+            <img src="profile-avatar.png" alt="Profile Avatar" class="profile-avatar">
+        </div>
+        
+    </header>
+    <main>
+        <div class="doctor-availability">
+            <h2>Online Doctors</h2>
+            <p>Number of Doctors Available: <span id="doctor-count">10</span></p>
+        </div>
+        <form class="consultation-form">
+            <h2>Start Consultation</h2>
+            <label for="symptoms">Symptoms/Disease:</label>
+            <textarea id="symptoms" name="symptoms" placeholder="Describe your symptoms here"></textarea>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            <button type="submit">Consult Now</button>
+        </form>
+        <h2>Common Symptoms</h2>
+        <div class="symptom-cards">
+            
+            <div class="symptom-card">
+                <h3>Fever</h3>
+                <p>5 Doctors Available</p>
+            </div>
+            <div class="symptom-card">
+                <h3>Headache</h3>
+                <p>8 Doctors Available</p>
+            </div>
+            <div class="symptom-card">
+                <h3>Stomach Ache</h3>
+                <p>3 Doctors Available</p>
+            </div>
+            <div class="symptom-card">
+                <h3>Cough</h3>
+                <p>7 Doctors Available</p>
+            </div>
+            <div class="symptom-card">
+                <h3>Skin Rash</h3>
+                <p>2 Doctors Available</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
